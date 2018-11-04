@@ -1,0 +1,10 @@
+{
+  "presets": [
+    "env",
+    "react"
+  ],
+  "plugins": [
+    "transform-class-properties",//allows for better class syntax, no constructor, and arrow functions (no bindings)
+    "transform-object-rest-spread"//allows js object spread syntax
+  ]
+}
